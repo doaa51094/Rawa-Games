@@ -313,8 +313,9 @@ line-height: 27px;
 
 .drive-header img{
   position: absolute;
-  right: 10px;
+  right: 15px;
   width: 24px;
+  top: 15px;
 }
  .name{
   width: 280px;
@@ -363,7 +364,27 @@ table{
   font-size: 14px;
   line-height: 24px;
 }
+tr:nth-child(2n){
+  background-color: rgba(139, 139, 139, 0.06);
+}
 .drive-body img{
   width: 30px;
   height: 30px;
+}
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dott {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left:-0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+    background-color: #57acdc; /* Adjust the color of the dot */
 }
