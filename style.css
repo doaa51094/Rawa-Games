@@ -265,3 +265,105 @@ line-height: 27px;
 .select-folder .item{
   padding: 5px 7px;
 }
+/* main drive */
+.drive-header{
+  padding-left: 10px;
+  position: relative;
+  background-color: #171717;
+  height: 52px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: rgba(250, 250, 250, 0.7);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+}
+/* style checkbox */
+.styled-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #939393;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+}
+
+.styled-checkbox:checked {
+  background-color: #57acdc; 
+  border-color: #57acdc;
+}
+
+.styled-checkbox:checked::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.drive-header img{
+  position: absolute;
+  right: 10px;
+  width: 24px;
+}
+ .name{
+  width: 280px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+
+
+}
+ .Uploaded{
+  width: 230px;
+  text-align: left;
+
+}
+ .View{
+  width: 150px;
+  text-align: left;
+
+
+}
+ .Size{
+  width: 150px;
+  text-align: left;
+
+
+}
+/* drive body */
+.drive_container > div:nth-child(2n){
+  background-color:rgba(139, 139, 139, 0.06) ;
+}
+table{
+  width: 100%;
+}
+.drive-body{
+  padding-left: 10px;
+  position: relative;
+  height: 52px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: rgba(250, 250, 250, 0.7);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.drive-body img{
+  width: 30px;
+  height: 30px;
+}
