@@ -11,13 +11,16 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
     <title>Rawa Games</title>
   </head>
   <body>
-    <section>
+    <section id="drive">
       <div class="sidebar">
         <img src="assets/Droppex.png" alt="Droppex" class="Droppex" />
         <button>
@@ -31,28 +34,73 @@
               <div class="border"></div>
             </li>
             <li>
-              <img src="/assets/trash.png" alt="trash icon" /> <span>Trash</span>
+              <img src="/assets/trash.png" alt="trash icon" />
+              <span>Trash</span>
             </li>
           </ul>
         </div>
         <div class="line1"></div>
         <div class="storage">
           <div class="storage-header">
-            <img src="/assets/cloud.png" alt="cloud icon" /> <span>Storage</span>
+            <img src="/assets/cloud.png" alt="cloud icon" />
+            <span>Storage</span>
           </div>
           <div class="chart-parent">
             <div class="pie-chart-container">
               <div class="pie-chart">
-                <div class="child-div">
-                  10%
-                </div>
-              </div> 
-              <p>10GB / 100GB</p> 
+                <div class="child-div">10%</div>
+              </div>
+              <p>10GB / 100GB</p>
             </div>
           </div>
         </div>
       </div>
-      <div class="main_drive"></div>
+      <!-- end sidebar -->
+      <!-- start main drive -->
+      <div class="main_drive">
+        <div class="main-drive-header">
+          <div class="header-search">
+            <div>
+              <img src="/assets/search-normal.png" alt="search icon" />
+              <input
+                type="text"
+                placeholder="Search for file, folder, shared storehouse"
+              />
+            </div>
+            <img src="/assets/filter.png" alt="filter icon" />
+          </div>
+          <div class="drag-drop">
+            <img src="/assets/drag.png" alt="drag and drop icon" />
+            <p>
+              Drag and drop <span>files</span> , <span>folders</span> or
+              <span>links</span>
+            </p>
+          </div>
+          <img src="/assets/Frame 3.png" alt="frame" class="header-img" />
+          <img src="/assets/user.png" alt="user img" />
+        </div>
+        <div class="user-info">
+          <div>Ramy Main Drive</div>
+          <div><img src="/assets/info.png" alt="info icon" /></div>
+        </div>
+        <div class="line2"></div>
+        <div class="select-folder">
+          <div>Select folder or file to see options</div>
+          <div>
+            <div class="item">No item selected</div>
+            <div class="border-left item">
+              <img src="/assets/Component 5.png" alt="" />
+              <img src="/assets/Component 6.png" alt="" />
+            </div>
+            <div class="border-left item">
+              <img src="/assets/ShowHide.png" alt="" />
+              <img src="/assets/Options.png" alt="" />
+              <img src="/assets/Component 2.png" alt="" />
+              <img src="/assets/Options (1).png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </body>
 </html>
