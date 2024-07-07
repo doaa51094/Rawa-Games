@@ -188,10 +188,11 @@ body {
 .main-drive-header {
   display: flex;
   align-items: center;
-  gap: 25px;
+  justify-content: space-between;
 }
 .main_drive {
   padding-top: 40px;
+  width: 78%;
 }
 .header-search {
   width: 627px;
